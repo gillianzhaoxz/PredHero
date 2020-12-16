@@ -668,8 +668,8 @@ st_drop_geometry(reg.summary) %>%
       geom_point(size = 2) + geom_path(aes(group = heroin_Decile), colour = "black") +
       scale_shape_manual(values = c(2, 17)) +
       facet_wrap(~Regression) + xlim(0,10) +
-      labs(title = "Predicted and observed cannabis convict",
-           subtitle = "by observed cannabis convict decile",
+      labs(title = "Predicted and observed overdose cases",
+           subtitle = "by observed overdose cases decile",
            caption = "Figure 12")
 
 which <- c("Spatial LOGO-CV: Spatial Process", "Random k-fold: Spatial Process")
